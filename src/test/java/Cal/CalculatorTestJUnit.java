@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CalculatorTest1 {
+class CalculatorTestJUnit {
     @ParameterizedTest
     @MethodSource("numberProvider")
     @DisplayName("더하기 테스트")
